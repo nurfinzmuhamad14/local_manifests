@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="mi-thorium"
-           fetch="https://github.com/Mi-Thorium"
-           revision="a14/master" />
-  <remote  name="phantom"
-           fetch="https://github.com/PhantomEnigma"
+  <remote  name="RMX2195"
+           fetch="https://github.com/nurfinzmuhamad14"
            revision="a14/master" />
   <!--
   <remote  name="github"
            fetch="https://github.com" />
 -->
  <!-- Common -->
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="phantom"/>
-  <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="mi-thorium"/>
-  <project path="vendor/xiaomi/mithorium-common-graphics" name="proprietary_vendor_xiaomi_mithorium-common-graphics" groups="device" remote="mi-thorium" revision="a11/master"/>
-
+  <project path="device/realme/RECE4244" name="android_device_realme_RECE4244"     groups="device" remote="nurfinzmuhamad14"/>
+  <project path="vendor/realme/RECE4244" name="proprietary_vendor_realme_RECE4244" groups="device" remote="nurfinzmuhamad14"/>
+  
  <!-- Common - Kernel 4.19 -->
   <project path="vendor/xiaomi/mithorium-common-4.19" name="proprietary_vendor_xiaomi_mithorium-common-4.19" groups="device" remote="mi-thorium"/>
 
